@@ -2,7 +2,6 @@ import './App.css';
 import VideoPlayer from './components/video-player/video-player';
 import imagem from './exclusivo.png'
 import { FaUnlock } from 'react-icons/fa'
-import compra from './compra.png'
 import { useEffect, useState } from 'react';
 import Header from './components/header/header';
 import ButtonSales from './components/button-sales/button-sales';
@@ -36,7 +35,7 @@ function App() {
       <div className="text-footer-container">
           <div>Copyright 2023 - Shopee Cash <span className="copy">®</span></div>
           <div>Todos os direitos reservador</div>
-          <div><a className="terms" href="https://www.opinarereceber.shop/co-perfectpay/termos/">Termos de Uso . Privacidade</a></div>
+          <div><a className="terms" href="https://help.perfectpay.com.br/article/61-temos-de-uso">Termos de Uso . Privacidade</a></div>
       </div>
     </div>
   );
