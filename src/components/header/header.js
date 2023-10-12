@@ -1,10 +1,10 @@
 import React from 'react';
 import './header.css'
 
-function Header() {
+function Header({children}) {
     return (
         <div className="container-header">
-            Assista ao vídeo curto abaixo para liberar seu acesso exclusivo!
+           {children}
         </div>
     )
 }

@@ -5,6 +5,7 @@ import { FaUnlock } from 'react-icons/fa'
 import { useEffect, useState } from 'react';
 import Header from './components/header/header';
 import ButtonSales from './components/button-sales/button-sales';
+import CounterBanner from './components/counte-banner/counter-banner';
 
 function App() {
   const [finishTimer, setFinishTimer] = useState(false);
@@ -16,7 +17,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header></Header>
+      <Header>
+        <CounterBanner></CounterBanner>
+      </Header>
       <div className="text-container">
          <img src={imagem} className='desconto' />
       </div>
@@ -29,7 +32,7 @@ function App() {
       <ButtonSales></ButtonSales>
       }
       <div className='responsive-img-container'>
-        <img className='image-social-prove ' decoding="async" src="https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-481x1024.png" class="attachment-large size-large wp-image-1113" alt="" srcset="https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-481x1024.png 481w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-141x300.png 141w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-768x1636.png 768w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-721x1536.png 721w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-962x2048.png 962w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-600x1278.png 600w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14.png 1080w" sizes="(max-width: 481px) 100vw, 481px"></img>
+        <img decoding="async" src="https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-481x1024.png" class="attachment-large size-large wp-image-1113 image-social-prove " alt="" srcset="https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-481x1024.png 481w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-141x300.png 141w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-768x1636.png 768w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-721x1536.png 721w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-962x2048.png 962w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14-600x1278.png 600w, https://vivendodeshopee.fun/wp-content/uploads/2023/09/28-Comentarios-14.png 1080w" ></img>
       </div>
 
       <div className="text-footer-container">

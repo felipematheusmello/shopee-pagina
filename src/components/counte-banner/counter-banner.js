@@ -15,9 +15,7 @@ function CounterBanner() {
     }, [randomNumber])
 
     return (
-        <div className="container-counter">
-            <div className="counter-title">Há {randomNumber} pessoas assistindo esse vídeo</div>
-        </div>
+        <div>Há {randomNumber} pessoas assistindo esse vídeo</div>
     )
 }
 
