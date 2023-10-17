@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setFinishTimer(true)
-    }, 720000)
+    }, 720050)
   }, [])
 
   return (

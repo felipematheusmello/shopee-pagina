@@ -4,7 +4,7 @@ import './button-sales.css'
 function ButtonSales() {
     return (
         <div class="text-box">
-            <a class="btn btn-white btn-animate" href="https://go.perfectpay.com.br/PPU38CN8NF0">QUERO LUCRAR <div>COM A SHOPEE</div></a>
+            <a class="btn btn-white btn-animate" href="https://pepper.com.br/checkout/index.html?p=85742&o=97082"> Adquira por 19,90 agora!</a>
         </div>
     )
 }
